@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Garance Pruvost — Portfolio</title>
+  <meta name="description" content="Portfolio de Garance Pruvost, étudiante en informatique à l'ESGI, orientée systèmes, réseaux et cybersécurité." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#hero" class="logo">GP.</a>
+      <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#education">Parcours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero">
+      <div class="container">
+        <p class="hero-eyebrow">Étudiante en informatique · Lille</p>
+        <h1>Garance Pruvost</h1>
+        <p class="hero-tagline">
+          Reconversion en informatique avec une orientation
+          <strong>systèmes, réseaux et cybersécurité</strong>.
+          Curieuse, méthodique, et engagée dans ma formation à l'ESGI.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-ghost">Me contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>À propos</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Je m'appelle Garance Pruvost, j'ai entamé une <strong>reconversion en informatique</strong>
+              à l'ESGI où je suis actuellement en première année.
+              Lauréate d'une bourse au mérite, j'approfondis mes compétences en
+              systèmes, réseaux et cybersécurité, par la pratique régulière sur
+              des environnements de lab techniques.
+            </p>
+            <p>
+              Avant cette reconversion, j'ai acquis un solide socle en
+              <strong>gestion locative</strong> dans l'entreprise familiale,
+              et j'ai travaillé comme <strong>monitrice saisonnière au Brésil</strong>
+              dans un contexte multiculturel exigeant. Ces expériences m'ont
+              formée au sens des responsabilités, à l'organisation et au
+              relationnel — des qualités que je transpose aujourd'hui à mon
+              projet en informatique.
+            </p>
+          </div>
+          <aside class="about-card">
+            <ul class="about-facts">
+              <li><span>Localisation</span>Villeneuve d'Ascq</li>
+              <li><span>Formation</span>ESGI · 1<sup>re</sup> année</li>
+              <li><span>Spécialisation visée</span>Cybersécurité</li>
+              <li><span>Statut</span>RQTH · 100% opérationnelle</li>
+              <li><span>Disponibilité</span>Alternance</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Compétences techniques</h2>
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <h3>Systèmes</h3>
+            <ul>
+              <li>Windows 10 / 11</li>
+              <li>Linux (Ubuntu, Debian)</li>
+              <li>Active Directory · GPO</li>
+              <li>Virtualisation (VMware)</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Réseaux</h3>
+            <ul>
+              <li>TCP/IP · DNS · DHCP</li>
+              <li>Partage de fichiers (SMB, SFTP)</li>
+              <li>Diagnostic réseau</li>
+              <li>Notions de sécurité périmétrique</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Développement &amp; Scripting</h3>
+            <ul>
+              <li>Python</li>
+              <li>Bash · PowerShell</li>
+              <li>HTML / CSS</li>
+              <li>SQL (notions)</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Cybersécurité</h3>
+            <ul>
+              <li>Bonnes pratiques OWASP</li>
+              <li>Veille sécurité &amp; CVE</li>
+              <li>Analyse de logs</li>
+              <li>Labs CTF (en cours)</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projets &amp; Réalisations</h2>
+        <p class="section-intro">
+          Une sélection de projets réalisés dans le cadre de ma formation
+          ou en autoformation. Cette section sera enrichie au fil des
+          mois.
+        </p>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <h3>Lab AD &amp; GPO</h3>
+            <p>
+              Mise en place d'un domaine Active Directory en machine
+              virtuelle, gestion d'utilisateurs et déploiement de
+              stratégies de groupe (GPO).
+            </p>
+            <ul class="tags">
+              <li>Windows Server</li>
+              <li>AD</li>
+              <li>VMware</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <h3>Scripts d'automatisation</h3>
+            <p>
+              Petits scripts Python et PowerShell pour automatiser des
+              tâches récurrentes : sauvegardes, audit de comptes,
+              extraction de logs.
+            </p>
+            <ul class="tags">
+              <li>Python</li>
+              <li>PowerShell</li>
+              <li>Automation</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <h3>Site portfolio</h3>
+            <p>
+              Création de ce portfolio en HTML/CSS, hébergé sur GitHub
+              Pages — exercice de mise en pratique du front-end statique
+              et du déploiement Git.
+            </p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Git</li>
+            </ul>
+          </article>
+
+          <article class="project-card project-card-placeholder">
+            <h3>Bientôt…</h3>
+            <p>
+              D'autres projets seront ajoutés au fur et à mesure de mon
+              avancée à l'ESGI.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2>Parcours</h2>
+        <ol class="timeline">
+
+          <li class="timeline-item">
+            <div class="timeline-date">2025 — aujourd'hui</div>
+            <div class="timeline-body">
+              <h3>ESGI · 1<sup>re</sup> année</h3>
+              <p>
+                École Supérieure de Génie Informatique. Reconversion vers
+                l'informatique, orientation systèmes &amp; sécurité.
+                Lauréate d'une bourse au mérite.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-date">2023 — 2025</div>
+            <div class="timeline-body">
+              <h3>Gestion locative · Entreprise familiale</h3>
+              <p>
+                Suivi de dossiers, organisation administrative, usage
+                quotidien d'environnements Windows 11 — sens des
+                responsabilités et autonomie.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-date">Saison 2023</div>
+            <div class="timeline-body">
+              <h3>Monitrice saisonnière · Brésil</h3>
+              <p>
+                Encadrement dans un contexte multiculturel exigeant.
+                Adaptation, gestion de l'imprévu et excellent relationnel
+                avec un public international.
+              </p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-container">
+        <h2>Contact</h2>
+        <p>
+          Vous recrutez en alternance pour un poste en systèmes,
+          réseaux ou cybersécurité ? Je serais ravie d'échanger avec
+          vous.
+        </p>
+        <a class="btn btn-primary btn-lg" href="mailto:garancepruvost@hotmail.fr">
+          garancepruvost@hotmail.fr
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Garance Pruvost — Tous droits réservés.</p>
+      <p class="footer-small">Site réalisé en HTML &amp; CSS, hébergé sur GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

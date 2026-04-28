@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Garance Pruvost — Portfolio</title>
+  <meta name="description" content="Portfolio de Garance Pruvost, étudiante en informatique à l'ESGI, orientée systèmes, réseaux et cybersécurité." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">GP.</a>
+
+      <button id="menu-toggle" class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#education">Parcours</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-toggle" aria-label="Basculer le thème">
+            <span class="theme-icon">☀</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero reveal">
+      <div class="container">
+        <p class="hero-eyebrow">Étudiante en informatique · Lille</p>
+        <h1>Garance Pruvost</h1>
+        <p class="hero-tagline">
+          Reconversion en informatique avec une orientation
+          <strong>systèmes, réseaux et cybersécurité</strong>.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-ghost">Me contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h2>À propos</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Étudiante en première année à l'ESGI dans le cadre d'une
+              <strong>reconversion en informatique</strong>, lauréate
+              d'une bourse au mérite. J'approfondis mes compétences en
+              systèmes, réseaux et cybersécurité par la pratique sur des
+              labs techniques.
+            </p>
+            <p>
+              Avant cette reconversion : <strong>gestion locative</strong>
+              dans l'entreprise familiale et <strong>monitrice
+              saisonnière au Brésil</strong> — sens des responsabilités,
+              organisation et excellent relationnel multiculturel.
+            </p>
+          </div>
+          <aside class="about-card">
+            <ul class="about-facts">
+              <li><span>Localisation</span>Villeneuve d'Ascq</li>
+              <li><span>Formation</span>ESGI · 1<sup>re</sup> année</li>
+              <li><span>Spécialisation</span>Cybersécurité</li>
+              <li><span>Statut</span>RQTH · 100% opérationnelle</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt reveal">
+      <div class="container">
+        <h2>Compétences techniques</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Systèmes</h3>
+            <ul>
+              <li>Windows 10 / 11</li>
+              <li>Linux (Ubuntu, Debian)</li>
+              <li>Active Directory · GPO</li>
+              <li>Virtualisation (VMware)</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Réseaux</h3>
+            <ul>
+              <li>TCP/IP · DNS · DHCP</li>
+              <li>SMB · SFTP</li>
+              <li>Diagnostic réseau</li>
+              <li>Sécurité périmétrique</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Dev &amp; Scripting</h3>
+            <ul>
+              <li>Python</li>
+              <li>Bash · PowerShell</li>
+              <li>HTML / CSS / JS</li>
+              <li>SQL (notions)</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Cybersécurité</h3>
+            <ul>
+              <li>Bonnes pratiques OWASP</li>
+              <li>Veille &amp; CVE</li>
+              <li>Analyse de logs</li>
+              <li>Labs CTF</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2>Projets</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Lab AD &amp; GPO</h3>
+            <p>Domaine Active Directory en machines virtuelles, gestion d'utilisateurs et déploiement de GPO.</p>
+            <ul class="tags"><li>Windows Server</li><li>AD</li><li>VMware</li></ul>
+          </article>
+          <article class="project-card">
+            <h3>Scripts d'automatisation</h3>
+            <p>Scripts Python et PowerShell pour sauvegardes, audit de comptes et extraction de logs.</p>
+            <ul class="tags"><li>Python</li><li>PowerShell</li></ul>
+          </article>
+          <article class="project-card">
+            <h3>Portfolio v2</h3>
+            <p>Ce portfolio en HTML/CSS/JS Vanilla : menu burger, animations scroll, dark mode, validation de formulaire.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JS</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt reveal">
+      <div class="container">
+        <h2>Parcours</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-date">2025 — aujourd'hui</div>
+            <div class="timeline-body">
+              <h3>ESGI · 1<sup>re</sup> année</h3>
+              <p>Reconversion vers l'informatique. Bourse au mérite.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">2023 — 2025</div>
+            <div class="timeline-body">
+              <h3>Gestion locative · Entreprise familiale</h3>
+              <p>Suivi de dossiers, organisation administrative, environnement Windows.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">Saison 2023</div>
+            <div class="timeline-body">
+              <h3>Monitrice saisonnière · Brésil</h3>
+              <p>Encadrement multiculturel, gestion de l'imprévu.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="container contact-container">
+        <h2>Contact</h2>
+        <p>Une opportunité d'alternance ? Écrivez-moi via ce formulaire.</p>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required minlength="2" />
+            <small class="error-msg" data-for="name"></small>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+            <small class="error-msg" data-for="email"></small>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required minlength="10"></textarea>
+            <small class="error-msg" data-for="message"></small>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+          <p id="form-success" class="form-success" hidden>
+            Merci, votre message a bien été pris en compte.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Garance Pruvost — Tous droits réservés.</p>
+      <p class="footer-small">HTML &amp; CSS &amp; Vanilla JS · GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
